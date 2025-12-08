@@ -9,7 +9,7 @@
 
 !!! note "About this Use Case"
 
-    In this Use Case you will explore how to create a FortiManager base to connect FortiGates.
+    In this Use Case you will explore how FortiManager is the rapid, automated, and scalable deployment of new FortiGate devices without on-site manual configuration. This minimizes deployment time, reduces human error, and ensures consistent configuration across large-scale networks, especially for SD-WAN rollouts.
 
 ### 1.1. ADOM Creation
 
