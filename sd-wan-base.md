@@ -11,7 +11,7 @@
 
     In this Use Case you will explore how to create a FortiManager base to connect FortiGates.
 
-### ADOM Creation
+### 1.1. ADOM Creation
 
 1. Open FortiManager (fmg),
 
@@ -44,7 +44,7 @@
 
     ![IMG](../images/05/fmg_xperts_adom.png){ width="600" }
 
-### Group Structure
+### 1.2. Group Structure
 
 1. Go to **Device Manager -> Device & Groups** then right click on **Managed FortiGate(0)** -> **+Create New Group**
 
@@ -84,7 +84,7 @@
 
     ![IMG](../images/05/img8.jpeg){ width="600" }
 
-### Device Blueprint
+### 1.3. Device Blueprint
 
 1. Click on the **Down Arrow** then **Device Blueprint**
 
@@ -127,7 +127,7 @@
 
     Click **Close**
 
-### ZTP Inventory
+### 1.4. ZTP Inventory
 
 1. We have automated the device on-boarding process for faster lab times, this time you won't have to connect to FortiGates to add to the FortiManager, we will leverage on ZTP configuration to make it quicker.
 
@@ -225,7 +225,7 @@
 
         Open some variables to see their values, they will have mapping for the different devices.
 
-### ZTP Support Scripts
+### 1.5. ZTP Support Scripts
 
 !!! note "About this Lab"
 
@@ -321,7 +321,7 @@
 
     ![IMG](../images/05/img29.jpeg){ width="600" }
 
-### ZTP Onboard Devices
+### 1.6. ZTP Onboard Devices
 
 1. Go back to the shell on **z_toolhost** and execute
 
@@ -364,7 +364,7 @@
 
     ![IMG](../images/05/img33.jpeg){ width="1000" }
 
-## System Template
+## 1.7. System Template
 
 | Info | Result |
 | ---- | ---- |
