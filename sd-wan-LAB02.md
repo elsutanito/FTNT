@@ -9,7 +9,7 @@
 
 !!! note "About this Use Case"
 
-    In this use case you will create and SD-WAN configuration with 2 HUBs in Primary - Secondary mode using the SDWAN Overlay Template to simplify the configuration.
+    In this use case you will create Provisioning Templates (often called Device Templates or CLI Templates) in FortiManager is to standardize and automate the configuration of managed FortiGate devices, especially in large-scale environments like SD-WAN or branch office deployments.
 
 ### 2.1. SD-WAN Template
 
