@@ -1,4 +1,4 @@
-# Secure SDWAN Laboratory 01
+# Secure SDWAN Laboratory 04
 
 ## Use Case: SD-WAN Dual HUB (Testing and Troubleshooting)
 
@@ -9,7 +9,7 @@
 
 !!! note "About this Use Case"
 
-    In this use case you will create and SD-WAN configuration with 2 HUBs in Primary - Secondary mode using the SDWAN Overlay Template to simplify the configuration.
+    This laboratory will guide you on how to test the SD-WAN implementation and will provide several valuable troubleshooting commands.
 
 ### 4.1. Validate
 
