@@ -1,6 +1,6 @@
 # Secure SDWAN Laboratory 02
 
-## Use Case: SD-WAN Dual HUB
+## Use Case: SD-WAN Dual HUB (Templates, Overlays)
 
 | Info | Result |
 | ---- | ---- |
