@@ -4,8 +4,8 @@
 
 | Info | Result |
 | ---- | ---- |
-| Time to Complete | 90 Minutes |
-| Dependencies | Use Case: FortiManager ZTP |
+| Time to Complete | 30 Minutes |
+| Dependencies | Use Case: SDWAN Laboratory 02 |
 
 !!! note "About this Use Case"
 
