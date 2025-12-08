@@ -1,6 +1,6 @@
-# SD-WAN Base Lab
+# Secure SDWAN Laboratory 01
 
-## Use Case: FortiManager ZTP
+## Use Case: Smart Provisioning with FortiManager
 
 | Info | Result |
 | ---- | ---- |
