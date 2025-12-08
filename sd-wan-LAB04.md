@@ -1,11 +1,11 @@
 # SD-WAN ACME LATAM
 
-## Use Case: SD-WAN Dual HUB
+## Use Case: SD-WAN Dual HUB (Testing and Troubleshooting)
 
 | Info | Result |
 | ---- | ---- |
 | Time to Complete | 90 Minutes |
-| Dependencies | Use Case: FortiManager ZTP |
+| Dependencies | Use Case: Secure SDWAN Laboratory 03 |
 
 !!! note "About this Use Case"
 
