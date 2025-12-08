@@ -9,7 +9,7 @@
 
 !!! note "About this Use Case"
 
-    In this Use Case you will explore how to create a FortiManager base to connect FortiGates through a Zero Touch Provisioning Setup.
+    In this Use Case you will explore how to create a FortiManager base to connect FortiGates.
 
 ### ADOM Creation
 
