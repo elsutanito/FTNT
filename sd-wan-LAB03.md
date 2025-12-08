@@ -9,9 +9,9 @@
 
 !!! note "About this Use Case"
 
-    In this use case you will create and SD-WAN configuration with 2 HUBs in Primary - Secondary mode using the SDWAN Overlay Template to simplify the configuration.
-
-### SD-WAN Rules
+    This laboratory covers the functionality of SD-WAN rules, routing configuration, and firewall policies within your SD-WAN setup.
+    
+### 3.1. SD-WAN Rules
 
 1. Navigate to **Device Manager -> Provisioning Templates-> SD-WAN**
 
@@ -204,7 +204,7 @@
 
     Click **OK**
 
-### Static Route Template
+### 3.2. Static Route Template
 
 !!! note "About this Lab"
 
@@ -318,7 +318,7 @@
 
     ![IMG](../images/sdwan/sdw_templates_01-e.png){ width="800" }
 
-### Updating IPSec Password
+### 3.3. Updating IPSec Password
 
 !!! note "About this Lab"
 
@@ -366,7 +366,7 @@
 
         We don't need to change VPN3 nor HUB2 because FortiSASE will only connect to HUB1 VPN1 & VPN2
 
-### BGP Tunning
+### 3.4. BGP Tunning
 
 !!! note "About this Lab"
 
@@ -428,7 +428,7 @@
 
     Click **OK** twice to return to the BGP Provisioning Template table
 
-### Firewall Policies
+### 3.5. Firewall Policies
 
 SD-WAN is not just about designing and configuring SD-WAN strategies for de Edge devices (FortiGate)
 
@@ -570,7 +570,7 @@ In this section, you will modify policy packages to allow branch to DC traffic a
 
         We are using *Internet-Underlays* and *HUB1/HUB2* SD-WAN Zones in our policies, when an interface is into an SD-WAN Zone we cannot use it directly into FW Policies, if instead you try port1/port2 the installation will fail.
 
-### Install
+### 3.6. Install
 
 !!! note "Time to Install!"
 
