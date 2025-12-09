@@ -44,9 +44,6 @@ There are 2 ways to access the Lab
 
     ![CSE HoL Landing](images/index/img2.jpeg){ width="800" }
 
-1. Use the **SASE-DEMO account**  credentials to connect to the FortiSASE environment, do not use *MSSP account*.
-
-    ![CSE HoL Landing SASE Credentials](images/index/img3.jpeg){ width="600" }
 
 1. Access the Different devices from the menu on the right.
 
