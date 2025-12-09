@@ -1,17 +1,14 @@
-# SASE Lab Index
+# Secure SDWAN Laboratory Index
 
 ## Lab Overview
 
 On this Lab we will cover the following content:
 
-* FortiSASE Introduction
-* Secure Internet Access (SIA)
-* Data Loss Prevention (DLP)
-* SaaS Control (CASB)
-* FortiManager SD-WAN Overlay Template
-* SD-WAN ADVPN 2.0
-* Secure Private Access - Zero Trust Network Access (ZTNA)
-* Secure Private Access - Secure SD-WAN (SDW-PA)
+* SD-WAN Provisioning with FortiManager
+* FortiManager Provisioning Templates and SD-WAN Overlays
+* SD-WAN Traffic steering, dynamic routing, static routing, firewall policies
+* SD-WAN Testing and Troubleshooting
+
 
 ## Lab Architecture
 
@@ -19,9 +16,6 @@ General Lab architecture
 
 ![Lab Architecture 01](images/index/unisase-fpoc.png){ width="1000" }
 
-FortiSASE Architecture
-
-![Lab Architecture 01](images/index/unisase-sase.png){ width="600" }
 
 ## Accessing your Lab
 
