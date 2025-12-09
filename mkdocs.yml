@@ -1,0 +1,86 @@
+site_name: SASE Americas International Lab
+copyright: "Fortinet, Inc. All rights reserved."
+site_author: "Americas International Team"
+
+theme:
+  name: material
+  custom_dir: theme_fndn_4d/
+  logo: images/cse-amer-intl-dark-trans.png
+  #logo_dark: images/cse-amer-intl-dark-trans.png
+  #favicon: images/favicon.ico
+
+  features:
+#   - navigation.tabs
+#   - navigation.sections
+#   - navigation.expand
+   - navigation.prune
+   - navigation.footer
+#   - navigation.path
+   - navigation.top
+#   - toc.integrate
+   - search.suggest
+   - search.highlight
+   - content.tabs.link
+   - content.code.annotation
+   - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: custom
+      #accent: teal
+      accent: red
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      #primary: custom
+      primary: blue grey
+      #accent: cyan
+      accent: red
+plugins:
+  - search
+  - offline
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
+  #- mkdocs-to-pdf:
+  #    output_dir: pdf
+  #    enabled_if_env: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - stylesheets/style.css
+  - stylesheets/extra.css
+
+use_directory_urls: false
+
+nav:
+  - Home: index.md
+  - "Secure SDWAN Laboratory 01": sd-wan-LAB01.md
+  - "Secure SDWAN Laboratory 02": sd-wan-LAB02.md
+  - "Secure SDWAN Laboratory 03": sd-wan-LAB03.md
+  - "Secure SDWAN Laboratory 04": sd-wan-LAB04.md
+  - Troubleshooting: troubleshooting.md
