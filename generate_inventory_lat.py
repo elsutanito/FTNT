@@ -16,7 +16,7 @@ csv_model = """sn,device blueprint,name,vm_interface_number,hostname,loopback,re
 {{ sn_site2_H1 }},HUBs-CANADA,site2-H1,10,site2-H1,10.200.2.253,Canada,port1,port2,,port5,10.4.0.1/24,,"""
 {{ sn_site2_1 }},SPKs-CANADA,site2-1,10,site2-1,10.200.2.1,Canada,port1,port2,,port5,10.4.1.1/24,,"""
 
-csv_spk_canada = """sn,device blueprint,name,vm_interface_number,hostname,loopback,region,isp1_intf,isp2_intf,mpls_intf,lan_intf,lan_ip,lan2_intf,lan2_ip
+#csv_spk_canada = """sn,device blueprint,name,vm_interface_number,hostname,loopback,region,isp1_intf,isp2_intf,mpls_intf,lan_intf,lan_ip,lan2_intf,lan2_ip
 {{ sn_site2_1 }},SPKs-CANADA,site2-1,10,site2-1,10.200.2.1,Canada,port1,port2,,port5,10.4.1.1/24,,"""
 
 
